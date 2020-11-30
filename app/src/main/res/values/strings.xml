@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BookHub</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="about_app">About App</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="favourites_fragment">Favourites Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="about_app_fragment">About App Fragment</string>
+    <string name="email_id">Email ID:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="address">Address:</string>
+    <string name="profile_name">Tony Stark</string>
+    <string name="ph_no">+2222 445566</string>
+    <string name="mail_id">tony@starksindustries.com</string>
+    <string name="address_tony">10880 Malibu Point,90265</string>
+</resources>

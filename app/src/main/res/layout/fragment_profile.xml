@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/profile_pic_new"/>
+
+
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="@string/profile_name"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/txtNumberPane"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtProfile"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/phone_number"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtMailPane"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNumberPane"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/email_id"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtAddressPane"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMailPane"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/address"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ph_no"
+        android:layout_below="@id/txtProfile"
+        android:layout_toEndOf="@id/txtNumberPane"
+        android:textColor="@color/textColors"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/txtMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mail_id"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/txtNumber"
+        android:layout_toEndOf="@id/txtMailPane"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address_tony"
+        android:textColor="@color/textColors"
+        android:layout_below="@id/txtMail"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/txtAddressPane"/>
+
+</RelativeLayout>
